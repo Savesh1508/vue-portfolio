@@ -11,7 +11,7 @@
       <i v-else class="bx bx-x text-2xl text-[#131313]"></i>
     </button>
     <div
-      :class="sidebarStore.menu ? 'hidden sm:flex sm:flex-col' : ''"
+      :class="sidebarStore.menu ? 'hidden sm:flex sm:flex-col' : 'flex flex-col'"
     >
       <a href="#intro" class="nav-link active">
         <i class="bx bxs-home-alt-2 text-[#131313] text-[20px]"></i>
