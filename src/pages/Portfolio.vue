@@ -3,10 +3,10 @@
     <Sidebar />
     <div class="main sm:w-[90%] md:w-[93%] lg:w-[70%] bg-[#131313] h-screen overflow-x-hidden overflow-y-scroll">
       <div class="w-screen sm:w-[95%] mx-auto pt-0 sm:pt-6">
-        <section id="intro" class="bg-intro min-h-[70vh] md:min-h-[467px] py-5 mb-16 text-white flex items-center justify-center">
+        <section id="intro" class="bg-intro min-h-[70vh] md:min-h-[467px] py-6 mb-16 text-white flex items-center justify-center">
           <div class="content flex flex-col items-center text-center">
-            <h2 class="text-[36px] font-bold mb-[-6px]">I'm Savlatxon Eshonov</h2>
-            <h2 class="flex text-[36px] font-bold mb-5">
+            <h2 class="text-[30px] sm:text-[36px] font-bold mb-[-6px] ">I'm Savlatxon Eshonov</h2>
+            <h2 class="flex text-[30px] sm:text-[36px] font-bold mb-5">
               <span class="text-[#FFB400]">Full Stack</span>
               &nbspDeveloper
             </h2>

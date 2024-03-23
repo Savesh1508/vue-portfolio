@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="border border-[#ffb3006b] sm:border-none w-auto px-2 sm:px-0 pt-4 pb-2 sm:pt-0 bg-[#0000008a] rounded-[23px] sm:rounded-[0px] sm:bg-[#131313] absolute top-4 right-2 z-40 sm:static sm:w-[10%] md:w-[7%] lg:w-[5%] sm:h-screen flex flex-col justify-start sm:justify-center items-center duration-300"
+    class="border border-[#ffb3006b] sm:border-none w-auto px-2 sm:px-0 pt-4 pb-2 sm:pt-0 bg-[#0000008a] rounded-[23px] sm:rounded-[0px] sm:bg-[#131313] absolute top-[20%] right-2 z-40 sm:static sm:w-[10%] md:w-[7%] lg:w-[5%] sm:h-screen flex flex-col justify-start sm:justify-center items-center duration-300"
   >
     <button @click="toggleSidebar" class="flex items-center justify-center mb-[10px] sm:mb-10 lg:hidden w-[34px] h-[34px] rounded-md bg-[#FFB400] duration-200">
       <i v-if="!sidebarStore.visible" class="bx bxs-user-detail text-2xl text-[#131313]"></i>
@@ -11,7 +11,7 @@
       <i v-else class="bx bx-x text-2xl text-[#131313]"></i>
     </button>
     <div
-      :class="sidebarStore.menu ? 'hidden sm:flex flex-col' : 'flex flex-col'"
+      :class="sidebarStore.menu ? 'hidden sm:flex sm:flex-col' : ''"
     >
       <a href="#intro" class="nav-link active">
         <i class="bx bxs-home-alt-2 text-[#131313] text-[20px]"></i>
