@@ -10,7 +10,7 @@
               <span class="text-[#FFB400]">Full Stack</span>
               &nbspDeveloper
             </h2>
-            <p class="w-[65%] text-[16px] font-medium mb-6">I am a full-stack developer with expertise in Node.js and Vue.js technologies. I am passionate about solving complex problems, creating various web applications, and developing software that automates daily life processes. With my skills, I strive to contribute to society by building innovative solutions that make life easier for people.</p>
+            <p class="w-[65%] text-[16px] font-medium mb-6">I am a Full Stack developer with expertise in Node.js and Vue.js technologies. I am passionate about solving complex problems, creating various web applications, and developing software that automates daily life processes. With my skills, I strive to contribute to society by building innovative solutions that make life easier for people.</p>
             <button class="flex bg-[#FFB400] items-center rounded-md hover:bg-white transition-all duration-200 text-[#131313] py-2 lg:py-3 px-6 text-[16px]">
               <a href="https://t.me/Savesh2004" class="text-[16px] font-semibold">CONTACT</a>
               <i class="text-[20px] bx bx-right-arrow-alt"></i>

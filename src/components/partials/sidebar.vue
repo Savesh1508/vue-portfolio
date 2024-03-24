@@ -66,11 +66,11 @@
     </div>
 
     <a
-      href="../../assets/files/eshonov.pdf"
+      :href="pdfFile"
       class="flex justify-center rounded-sm bg-[#FFB400] w-full text-[#131313] text-[16px] py-2 2xl:py-3 transition-all duration-200 font-medium hover:bg-white"
       download
     >
-      DOWNLOAD RESUME
+      <button>DOWNLOAD RESUME</button>
     </a>
 
   </aside>
@@ -79,6 +79,7 @@
 <script setup>
   import { languages, skills, contacts, infos, exSkills } from '../../store/sidebar.js';
   import { useVisibilitiesStore } from '../../store/visibilities.js';
+  import pdfFile from '@/assets/files/eshonov.pdf';
 
   const sidebarStore = useVisibilitiesStore();
 </script>
