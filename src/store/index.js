@@ -143,7 +143,7 @@ const abilities = ref([
 const projects = ref([
   {
     id: 1,
-    img: "https://toshtemirov.netlify.app/images/mini-apps/mandarin.jpg",
+    img: "https://savlatxon-eshonov.netlify.app",
     name: "Uzum Clone",
     link: "https://mandarin-shop.netlify.app"
   },
