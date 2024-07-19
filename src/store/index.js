@@ -145,7 +145,7 @@ const projects = ref([
     id: 1,
     img: "https://toshtemirov.netlify.app/images/mini-apps/mandarin.jpg",
     name: "Uzum Clone",
-    link: "https://mandarin-shop.netlify.app"
+    link: "https://mandarinshopp.netlify.app"
   },
   {
     id: 2,

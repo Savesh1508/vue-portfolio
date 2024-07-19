@@ -44,7 +44,7 @@ const infos = ref([
   {
     id: 1,
     infoType: "Phone",
-    info: "(97) 930 99 56",
+    info: "(97) 449 99 56",
     isGreen: false
   },
   {
