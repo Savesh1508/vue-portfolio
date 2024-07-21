@@ -40,7 +40,7 @@
 
         <section id="works" class="mb-16">
           <h2 class="text-center font-bold mb-4 text-[32px] text-white">Projects for Experience</h2>
-          <p class="text-[#fffc] mx-auto max-w-[438px] mb-[32px] text-center font-semibold">Examples of sites that I made for the experience (Unfinished)</p>
+          <p class="text-[#fffc] mx-auto max-w-[438px] mb-[32px] text-center font-semibold">Examples of sites that I made for the experience</p>
           <ProjectCards :projects="projects" />
         </section>
 
