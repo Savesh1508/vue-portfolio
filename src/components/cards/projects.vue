@@ -1,6 +1,6 @@
 <template>
   <div  class="gap-5 flex flex-wrap">
-    <div v-for="project in projects" :key="project.id" class="w-full md:w-[calc(100%/3-16px)] max-h-[320px] relative">
+    <a :href="project.link" v-for="project in projects" :key="project.id" class="w-full md:w-[calc(100%/3-16px)] max-h-[320px] relative">
       <img :src="project.img" class="w-full h-[320px] overflow-hidden object-cover" alt="">
       <div class="absolute flex flex-col justify-center items-center left-0 top-0 w-full h-full p-4 bg-[#000000d0] opacity-0 hover:opacity-100 transition-all duration-200">
         <h3 class="text-center text-sm sm:text-lg text-white uppercase font-semibold mb-3">
@@ -12,7 +12,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </a>
   </div>
 </template>
 

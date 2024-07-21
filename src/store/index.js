@@ -10,6 +10,8 @@ import crudImg from '../assets/img/crud.jpg'
 import achiveImg from '../assets/img/achive.jpg'
 import leaderImg from '../assets/img/leader.jpg'
 import ntImg from '../assets/img/nt.jpg'
+import inventoryImg from '../assets/img/inventory.jpg'
+import portfolioImg from '../assets/img/portfolio.jpg'
 
 const services = ref([
   {
@@ -149,12 +151,24 @@ const projects = ref([
   },
   {
     id: 2,
+    img: inventoryImg,
+    name: "Inventory",
+    link: "https://inventory-task.netlify.app"
+  },
+  {
+    id: 3,
+    img: portfolioImg,
+    name: "Portfolio",
+    link: "https://savlatxon-eshonov.netlify.app"
+  },
+  {
+    id: 4,
     img: nestImg,
     name: "Nest Shop",
     link: "https://github.com/arziqulovsamandar/product"
   },
   {
-    id: 3,
+    id: 5,
     img: crudImg,
     name: "CRM project",
     link: "https://github.com/Educate-CRM/edu-frontend"
